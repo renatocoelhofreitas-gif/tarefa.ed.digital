@@ -1,13 +1,13 @@
 body {
-    background-color: rgb(0, 0, 0);
-    color: #e6dada;
+    background-color: rgb(236, 232, 232);
+    color: #141212;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(1, 8, 3);
-    color: rgb(228, 219, 219);
+    background-color: rgb(230, 235, 231);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px;
 }
@@ -80,8 +80,8 @@ card h3 {
     margin-top: 0;
 }
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: #e4e2e2;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
