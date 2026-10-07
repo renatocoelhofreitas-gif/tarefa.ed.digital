@@ -1,4 +1,19 @@
+:root{
+    
+    --cor-fundo:#f4f1ea;
+    --cor-texto:#222222;
+    --cor-pricipal:#6b2d5c;
+    --cor-secundaria:#9b4d83;
+    --cor-hover:#c77dff;
+    --cor-superficie:white;
+    --cor-card:#f3d9fa;
+    --cor-legenda:#555555;
+    --cor-clara:white;
+    --cor-rodape:#222222
+}
+
 body {
+
     background-color: rgb(236, 232, 232);
     color: #141212;
     font-family: Arial, sans-serif;
@@ -17,7 +32,7 @@ h1 {
 }
 
 h2 {
-    color: #c5b3c1c9;
+    color: var(--cor-pricipal);
 }
 
 p {
@@ -30,16 +45,16 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: var(--cor-princpal);
     padding: 10px 15px ;
     border-radius: 8px ;
     margin: 5px ;
     display: inline-block;
 }
 nav a:hover {
-    background-color: #c77dff;
+    background-color: var(--cor-hover);
 }
 main {
     width: 80%;
@@ -47,7 +62,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px
@@ -64,12 +79,12 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #6b2d5c ;
@@ -80,15 +95,15 @@ figcaption {
     margin-top: 0;
 }
 footer {
-    background-color: #e4e2e2;
-    color: rgb(0, 0, 0);
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara)
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color: #06a700;
+    background-color: var(--cor-princpal);
     color: white;
     border: none;
     padding: 10px 15px;
@@ -97,7 +112,7 @@ button {
 }
 
 button:hover {
-    background-color: #C2E9BF;
+    background-color: var(--cor-hover)
 }
 
 .curtir {
