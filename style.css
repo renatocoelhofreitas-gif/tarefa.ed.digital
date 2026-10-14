@@ -96,7 +96,7 @@ figcaption {
 }
 footer {
     background-color: var(--cor-rodape);
-    color: var(--cor-clara)
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
